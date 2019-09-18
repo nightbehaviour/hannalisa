@@ -1,7 +1,7 @@
 html, body{ height: 100%;}
 
 body{
-  background: #ffffff;
+  background: #ffffff !important;
   display: flex;
   align-items: center;
   justify-content: center;
