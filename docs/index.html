@@ -7,6 +7,11 @@
 		<link rel="stylesheet" href="style.css" type="text/css" />
 	</head>
 	<body>
-		<h1>THURSDAY MOOD</h1>
+		<h1><span id="day-placeholder" ></span> MOOD</h1>
+		<script>
+			const days = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+			document.getElementById('day-placeholder').innerText = days[new Date().getDay()]
+
+		</script>
 	</body>
 </html>
