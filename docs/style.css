@@ -7,8 +7,6 @@ body{
   justify-content: center;
 
 }
-
-
 h1{
   color: transparent;
   font: bold 10em/0 Arial, sans-serif;
@@ -20,7 +18,6 @@ h1{
   background: linear-gradient(90deg, #b30059, #ff99dd, #ffccff, #b3ffff, #33ffd6) right;
   -webkit-background-clip: text;
 }
-
 h1:before,
 h1:after{
   content: '';
@@ -30,8 +27,6 @@ h1:after{
   width: 100%;
   animation: into2 3s forwards;
 }
-
-
 @keyframes into{
   0%{
     width: 0;
@@ -53,18 +48,23 @@ h1:after{
   85%{
     width: 6.3em;
     line-height: 1;
-    transform: skewY(-10deg) translate(0);
+    transform: skewY(-10deg);
   }
   90%{
-    line-height: 0;
-    transform: skewY(-10deg) translate(0) scaleX(1);
+      width: 6.3em;
+      line-height: 1;
+    transform: skewY(-10deg);
   }
   95%{
-    transform: skewY(-10deg) translate(9em) scaleX(5);
+      width: 6.3em;
+      line-height: 1;
+    transform: skewY(-10deg);
   }
   100%{
+      width: 6.3em;
+      line-height: 1;
     background-position: left;
-    transform: skewY(-10deg) translate(15em) scaleX(1);
+    transform: skewY(-10deg);
   }
 }
 @keyframes into2{
@@ -78,19 +78,9 @@ h1:after{
     height: 0.15em;
   }
   90%{
-    height: 0.07em;
-  }
-}
-
-@keyframes menu-in{
-  0%{
-    font-size: 0;
-  }
-  30%{
-    font-size: 0;
+    height: 0.15em;
   }
   100%{
-    font-size: 2rem;
+      height: 0.15em;
   }
-
 }
